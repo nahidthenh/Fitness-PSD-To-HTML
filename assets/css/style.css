@@ -1,0 +1,636 @@
+/*------------------------------------------------------------------
+	[Master Stylesheet]
+	
+	Project:    Fitness
+	Version:    1.0
+	Last change:    10/05/2020 []
+	Author Name: Nahid Hasan
+	Primary use: Fitness Service
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+	[Table of contents]
+	
+	1. Body
+	2.
+-------------------------------------------------------------------*/
+
+/*
+	==========================================
+					Roboto Font
+	==========================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+/*
+	==========================================
+    Reset Css
+	==========================================
+*/
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+p{
+	margin:0;
+	font-weight:300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+	font-weight:700;
+}
+
+/* =========================================================================================									Nav and hero area  CSS Here =========================================================================================*/
+.navbar {
+    /* overflow: hidden; */
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 999;
+}
+
+.nav-link {
+	color: #000 !important;
+}
+.hero-area{
+	background:url('../img/hero5.jpg');
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+}
+
+.hero_area_content {
+padding:209px 0px;
+}
+
+.hero_area_content h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.hero_area_content h1 span {
+  font-weight: bold;
+}
+.hero_area_content h4 {
+  color: #AB3E0C;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.hero_area_content p {
+	color: #fff;
+	font-size: 17px;
+}
+
+/* =========================================================================================									About Company CSS Here =========================================================================================*/
+
+
+.row.x {
+	background: #fff;
+	margin-top: -80px;
+	box-shadow: 0px 3px 13px #2f2424;
+}
+.col-md-4.y {
+	box-shadow: 1px 0px 11px 3px #bbb5b5;
+	background: #fff;
+	border-left: 1px solid #bbb5b5;
+	border-right: 1px solid #bbb5b5;
+	z-index: 1;
+}
+.box {
+    text-align: left;
+    background: #fff;
+    margin: 0px 10px;
+}
+.box a {
+	text-decoration:none;
+	margin-top:10px;
+	color: #e74c3c;
+	display: block;
+}
+.box h4 {
+	text-align: left;
+	font-size: 18px;
+	margin-top: 3px;
+	color:#212121;
+	font-weight:bold;
+}
+
+.about_company {
+    margin-bottom: 50px;
+}
+/* =========================================================================================									about-center-content CSS Here =========================================================================================*/
+.about-center-content{
+	padding:40px 0px;
+}
+
+.about_company h2 {
+	font-size: 32px;
+	color: #e74c3c;
+	margin-top: 35px;
+}
+
+.text {
+    font-size: 19px;
+    text-align: justify;
+    margin-top: 19px;
+}
+/* =========================================================================================									video-popup CSS Here =========================================================================================*/
+
+.video-popup{
+	background:#000;
+	height:350px;
+	border-radius:7px;
+	margin-top:30px;
+}
+.fa-play{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text-block {
+    position: absolute;
+    bottom: 10px;
+    right: 28px;
+    background-color: #e74c3c;
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+	letter-spacing: 3px;
+}
+
+.video-popup:after {
+	content: '';
+	position: absolute;
+	background: #e74c3c;
+	height: 50%;
+	width: 50%;
+	z-index: -1;
+	top: 0;
+	left: -2%;
+	border-radius: 8px;
+}
+
+/* =========================================================================================									Get Start Area  CSS Here =========================================================================================*/
+
+
+
+.get_start_area {
+	background: #e74c3c;
+	padding: 60px;
+}
+.get_start_content p {
+	font-weight: bold;
+	color: #fff;
+	font-size: 39px;
+	text-transform:capitalize;
+}
+
+.get_start_content button {
+	color: #e74c3c;
+	font-size: 29px;
+	font-weight: bold;
+	margin-top: 40px;
+	border-radius: 0px;
+	padding: 10px 40px;
+}
+/* =========================================================================================									Brand Area  CSS Here =========================================================================================*/
+
+.brand_area{
+	padding:40px 0px;
+}
+
+.brand_area p {
+	font-size: 19px;
+	text-transform: capitalize;
+}
+
+
+
+/* Style the tab */
+
+.card-header {
+	margin-bottom: 10px;
+}
+.card-header a{
+	color:#000;
+	font-weight:bold;
+}
+.card-body{
+	text-transform:capitalize;
+}
+.card-body span{
+	color:#e74c3c;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+
+/* =========================================================================================									FITNESS FROM WITHIN. CSS Here =========================================================================================*/
+
+.fitness_within{
+	background:#e74c3c;
+	padding:70px;
+}
+
+.fitness-content-title h3 {
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;
+}
+.fitness-content-title h1 {
+	color: #fff;
+	font-weight: bold;
+	margin: 45px 0px;
+}
+/* Tab CSS */
+/* Style the tab */
+.tab {
+	overflow: hidden;
+	border: 1px solid #e74c3c;
+	background: #e74c3c;
+	box-shadow: 1px 0px 13px 0px #000;
+	text-align:center;
+	border-radius:8px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+	color:#fff;
+	font-weight:bold;
+	font-size:25px;
+	text-transform:uppercase;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    color:#000;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	color:#000;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin: 15px 0px;
+} 
+
+
+
+/* =========================================================================================									Rule Area CSS Here =========================================================================================*/
+
+
+.rule_one h1 {
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.rule_one h1 span {
+	color: #e74c3c;
+}
+.rule_one p {
+	font-size: 20px;
+}
+.dark_bg{
+	background:#000;
+	padding:60px 0px;
+	color:#fff;
+}
+.rule_padding{
+	padding-top:60px;
+	padding-bottom:60px;
+}
+
+
+/* =========================================================================================									Product area CSS Here =========================================================================================*/
+
+.product_area {
+	background: #f5f5f5;
+	padding: 60px 0px;
+}
+.product-title.text-center h1 {
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.product-title.text-center p {
+	font-size: 17px;
+	text-transform: capitalize;
+}
+
+/* Product_List_Tab */
+
+.tablink {
+    background-color: #000;
+    color: #fff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+}
+
+.tablink:hover {
+    background-color: #b72a1b;
+	color:#fff;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent2 {
+    color: white;
+    display: none;
+	border:none;
+    padding: 100px 30px;
+    height: 100%;
+}
+
+#Home,#News,#Contact,#About,#nh {background-color: #e74c3c;}
+.product1{
+	height:100px;
+	width:100px;
+}
+
+
+/* =========================================================================================									Process To Start  CSS Here =========================================================================================*/
+
+.process_to_start {
+	padding: 60px 0px;
+}
+.process_to_start_title.text-center h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.process_to_start_title.text-center h1 span {
+    color: #e74c3c;
+}
+.process_to_start_title.text-center p {
+    font-size: 19px;
+    margin-top: 20px;
+}
+.process_box{
+	padding-top:50px;
+}
+.process_box img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-bottom:10px;
+}
+
+.process_box h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px 0px;
+}
+.process_box h3 span {
+	color: #e74c3c;
+}
+.process_box p {
+	font-size: 18px;
+	color: #000;
+}
+
+
+/* =========================================================================================									Call To Action Area Or CTA CSS Here =========================================================================================*/
+
+.cta h1 {
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.cta p {
+	color: #fff;
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.cta button {
+	background: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 22px;
+	outline: none;
+	border: 2px solid;
+	padding: 14px 30px;
+}
+.cta button:hover {
+	background: #000;
+	transition:.5s;
+}
+
+/* =========================================================================================									footer area  CSS Here =========================================================================================*/
+
+.footer-area {
+	padding: 20px 0px;
+	border-top: 1px solid #e74c3c;
+}
+.footer-area p {
+	font-size: 18px;
+}
+.footer-area p a {
+	color: #e74c3c;
+	text-decoration: none;
+}
+
+/* =========================================================================================						**** All Page Style CSS Here **** =========================================================================================*/
+
+
+
+/* =========================================================================================									Contact Page CSS Here =========================================================================================*/
+.fa, .fab {
+	color: #e74c3c;
+}
+.baner{
+	background:url('../img/hero5.jpg');
+	/* background-size:cover; */
+	/* background-position:center; */
+	height:50vh;
+	
+}
+.baner_title{
+	padding: 165px 0px;
+}
+.baner_title h3 {
+	color: #e74c3c;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size:35px;
+}
+.crb {
+	
+}
+
+
+.crb a {
+  font-size: 17px;
+  color: #fff;
+  text-decoration:none;
+  color:#fff;
+}
+#texts {
+	padding: 10px;
+	display:none;
+}
+.crb span {
+	color: #fff;
+	font-size: 22px;
+	padding:10px;
+	margin-top:10px;
+}
+.form-area{
+	padding:40px 0px;
+}
+.form-area h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+	color: #e74c3c;
+}
+.btn-primary {
+	background: #e74c3c;
+	border: 1px solid #e74c3c;
+	transition: .5s;
+}
+
+.form-area h1::after {
+	background: #e74c3c;
+	content: '';
+	position: absolute;
+	top: 17px;
+	left: 41px;
+	height: 3px;
+	width: 40px;
+	bottom: 0;
+	right: 0;
+}
+.form-area h1::before {
+	position: absolute;
+	content: '';
+	background: #e74c3c;
+	height: 3px;
+	width: 40px;
+	top: 17px;
+	right: 41px;
+}
+
+/* Address */
+
+.contact-address ul li i {
+  padding: 0px 31px;
+}
+.contact-address ul li {
+  margin: 15px 0px;
+  font-size: 20px;
+}
+.contact-address {
+  margin: 35px 0px;
+}
+
+
+
+
+/* =========================================================================================								terms-of-service =========================================================================================*/
+
+.content-area-bg-terms-of-service {
+	background: #FFFFFF;
+	padding-top:40px;
+	padding-bottom:40px
+}
+
+.content-starter-area-terms-of-service{
+	
+	background: #cec7c712;
+	padding: 45px;
+	border: 1px solid #e74c3c;
+	border-radius: 5px;
+}
+.content-area-start-terms-of-service h1 {
+	font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color:  #515153;
+	text-transform:uppercase;
+}
+.content-area-start-terms-of-service h1 small {
+	font-size: 17px;
+	font-weight: bold;
+	color: #887777;
+	
+}
+.content-area-start-terms-of-service p {
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 18px;
+	padding-top:10px;
+}
+
+.content-area-start-terms-of-service p a {
+  color: #38C37D;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform:capitalize;
+}
+.content-area-start-terms-of-service p strong{
+  color:#887777;
+  font-weight: bold;
+  text-transform:capitalize;
+}
+.content-area-start-terms-of-service h3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color:  #515153;
+    padding: 10px 0;
+	text-transform:capitalize;
+}
+
+/* =========================================================================================						 Plugin CSS Here =========================================================================================*/
+/* Plugin CSS00 */
+
+.owl-carousel .owl-item img {
+	display: inline;
+	width: 200px;
+}

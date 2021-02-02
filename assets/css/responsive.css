@@ -1,0 +1,474 @@
+/* Laptop Device 1024px */
+@media only screen and (width: 1024px){
+	.tab button {
+		font-size: 20px;
+	}
+	.form-area h1::before {
+		right: 0px;
+	}
+	.form-area h1::after {
+		left: 0px;
+	}
+}
+/* Tablet Device 768px */
+@media only screen and (width: 768px){
+	.borders {
+		margin-top: 34px;
+		border: 0px solid #dee2e6 !important;
+	}
+	.box h4 {
+		text-align: center;
+		font-size: 18px;
+		margin: 0px;
+		color: #212121;
+		font-weight: bold;
+	}
+	.box {
+		text-align: center;
+	}
+	.icon {
+		margin-left: -25px;
+	}
+	.get_start_content p {
+		font-size: 35px;
+	}
+	.get_start_content button {
+		font-size: 25px;
+	}
+	.fitness-content-title h3 {
+		font-size: 28px;
+	}
+	.fitness-content-title h1 {
+		margin: 40px -39px;
+	}
+	.tab {
+		margin: 0px -155px;
+	}
+	.tabcontent {
+		margin: 15px -150px;
+	}
+	.product-title.text-center h1 {
+		font-size: 36px;
+	}
+	.product-title.text-center p {
+		font-size: 16px;
+		margin: 0px -130px;
+	}
+	.process_to_start_title.text-center h1 {
+		font-size: 30px;
+	}
+	.process_to_start_title.text-center p {
+		font-size: 18px;
+		margin: 20px -76px;
+	}
+	.process_box p {
+		font-size: 16px;
+		margin: 0px -18px;
+	}
+	.cta h1 {
+		font-size: 36px;
+	}
+	.cta button {
+		font-size: 17px;
+		padding: 10px 22px;
+	}
+	
+	.hero_area_content h4 {
+		font-size: 20px;
+	}
+	.hero_area_content {
+		padding: 161px 0px;
+	}
+	.baner_title {
+		padding: 115px 0px;
+	}
+	
+}
+/* Wide Mobile Device  600px*/
+@media only screen and (width: 600px){
+	.navbar-toggler-icon {
+		color: #e74c3c;
+	}
+	.col-md-4.y {
+		display: none;
+	}
+	.box {
+		text-align: center;
+	}
+	.box h4 {
+		text-align: center;
+		font-size: 18px;
+		margin-top: 6px;
+		color: #212121;
+		font-weight: bold;
+	}
+	.m_mus{
+		margin-bottom:-35px !important;
+	}
+	.about_company h2 {
+		font-size: 26px;
+		text-align: center;
+	}
+	.borders {
+		display: none;
+	}
+	.video-popup {
+		background: #715a5a;
+		height: 300px;
+		border-radius: 7px;
+		margin-top: 30px;
+	}
+	.get_start_content button {
+		padding: 10px 10px;
+		margin: 30px -24px;
+		font-size: 18px
+	}
+	.tab button {
+		background-color: inherit;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 20px 36px;
+		transition: 0.3s;
+		color: #fff;
+		font-weight: bold;
+		font-size: 17px;
+		text-transform: uppercase;
+		margin: 0px -18px;
+	}
+	.get_start_content p {
+		font-size: 20px;
+		margin: 0px -48px;
+	}
+	
+	.fitness-content-title h3 {
+		margin: 0px -81px;
+	}
+	.fitness-content-title h1 {
+		margin: 45px -75px;
+	}
+	.tab {
+		margin: 0px -70px;
+	}
+	.tabcontent {
+		margin: 15px -70px;
+	}
+	.rule_one h1 {
+		font-size: 21px;
+	}
+	.product-title.text-center h1 {
+		font-size: 30px;
+	}
+	.process_to_start_title.text-center h1 {
+		font-size: 26px;
+	}
+	.cta h1 {
+		font-size: 31px;
+		margin: 15px -72px;
+	}
+	.cta p {
+		margin: 20px -46px;
+		font-size: 18px;
+	}
+	.cta button {
+		padding: 10px 14px;
+	}	
+	.process_box img {
+		height: 120px;
+		width: 120px;
+		border-radius: 50%;
+		margin-bottom: 0px;
+	}
+	.hero_area_content {
+		padding: 140px 0px;
+	}
+	.baner_title {
+		padding: 115px 0px;
+	}
+}
+/* Mobile Device  M 425px*/
+@media only screen and (width: 425px){
+	.navbar-toggler-icon {
+		color: #e74c3c;
+	}
+	.col-md-4.y {
+		display: none;
+	}
+	.box {
+		text-align: center;
+	}
+	.box h4 {
+		text-align: center;
+		font-size: 18px;
+		margin-top: 6px;
+		color: #212121;
+		font-weight: bold;
+	}
+	.m_mus{
+		margin-bottom:-35px !important;
+	}
+	.about_company h2 {
+		font-size: 26px;
+		text-align: center;
+	}
+	.borders {
+		display: none;
+	}
+	.video-popup {
+		background: #715a5a;
+		height: 300px;
+		border-radius: 7px;
+		margin-top: 30px;
+	}
+	.get_start_content button {
+		padding: 10px 10px;
+		margin: 30px -24px;
+	}
+	.get_start_content p {
+		font-size: 20px;
+		margin: 0px -48px;
+	}
+	
+	.fitness-content-title h3 {
+		margin: 0px -81px;
+	}
+	.fitness-content-title h1 {
+		margin: 45px -75px;
+	}
+	.tab {
+		margin: 0px -70px;
+	}
+	.tabcontent {
+		margin: 15px -70px;
+	}
+	.rule_one h1 {
+		font-size: 21px;
+	}
+	.product-title.text-center h1 {
+		font-size: 30px;
+	}
+	.process_to_start_title.text-center h1 {
+		font-size: 26px;
+	}
+	.cta h1 {
+		font-size: 31px;
+		margin: 15px -72px;
+	}
+	.cta p {
+		margin: 20px -46px;
+		font-size: 18px;
+	}
+	.cta button {
+		padding: 10px 14px;
+	}	
+	.process_box img {
+		height: 120px;
+		width: 120px;
+		border-radius: 50%;
+		margin-bottom: 0px;
+	}
+	.hero_area_content {
+		padding: 85px 0px;
+	}
+	.baner_title {
+		padding: 115px 0px;
+	}
+}
+/* Mobile Device 375px */
+@media only screen and (width: 375px){
+	.navbar-toggler-icon {
+		color: #e74c3c;
+	}
+	.hero_area_content {
+		padding: 85px 0px;
+	}
+	.col-md-4.y {
+		display: none;
+	}
+	.box {
+		text-align: center;
+	}
+	.box h4 {
+		text-align: center;
+		font-size: 18px;
+		margin-top: 6px;
+		color: #212121;
+		font-weight: bold;
+	}
+	.m_mus{
+		margin-bottom:-35px !important;
+	}
+	.about_company h2 {
+		font-size: 26px;
+		text-align: center;
+	}
+	.borders {
+		display: none;
+	}
+	.video-popup {
+		background: #715a5a;
+		height: 300px;
+		border-radius: 7px;
+		margin-top: 30px;
+	}
+	.get_start_content button {
+		padding: 10px 10px;
+		margin: 30px -24px;
+	}
+	.get_start_content p {
+		font-size: 20px;
+		margin: 0px -48px;
+	}
+	
+	.fitness-content-title h3 {
+		margin: 0px -81px;
+	}
+	.fitness-content-title h1 {
+		margin: 45px -75px;
+	}
+	.tab {
+		margin: 0px -70px;
+	}
+	.tabcontent {
+		margin: 15px -70px;
+	}
+	.rule_one h1 {
+		font-size: 21px;
+	}
+	.product-title.text-center h1 {
+		font-size: 30px;
+	}
+	.process_to_start_title.text-center h1 {
+		font-size: 26px;
+	}
+	.cta h1 {
+		font-size: 31px;
+		margin: 15px -72px;
+	}
+	.cta p {
+		margin: 20px -46px;
+		font-size: 18px;
+	}
+	.cta button {
+		padding: 10px 14px;
+	}	
+	.process_box img {
+		height: 120px;
+		width: 120px;
+		border-radius: 50%;
+		margin-bottom: 0px;
+	}
+	
+	.content-area-start-terms-of-service h1 {
+		font-size: 21px;
+		margin: 0px -37px;
+	}
+	.content-area-start-terms-of-service p {
+		font-size: 15px;
+		line-height: 20px;
+		margin: 15px -34px;
+	}
+	.baner_title {
+		padding: 115px 0px;
+	}
+	
+}
+/* Mobile Device 320px */
+@media only screen and (width: 320px){
+	.navbar-toggler-icon {
+		color: #e74c3c;
+	}
+	.hero_area_content {
+		padding: 85px 0px;
+	}
+	.col-md-4.y {
+		display: none;
+	}
+	.box {
+		text-align: center;
+	}
+	.box h4 {
+		text-align: center;
+		font-size: 18px;
+		margin-top: 6px;
+		color: #212121;
+		font-weight: bold;
+	}
+	.m_mus{
+		margin-bottom:-35px !important;
+	}
+	.about_company h2 {
+		font-size: 26px;
+		text-align: center;
+	}
+	.borders {
+		display: none;
+	}
+	.video-popup {
+		background: #715a5a;
+		height: 300px;
+		border-radius: 7px;
+		margin-top: 30px;
+	}
+	.get_start_content button {
+		padding: 10px 10px;
+		margin: 30px -24px;
+	}
+	.get_start_content p {
+		font-size: 20px;
+		margin: 0px -48px;
+	}
+	
+	.fitness-content-title h3 {
+		margin: 0px -81px;
+	}
+	.fitness-content-title h1 {
+		margin: 45px -75px;
+	}
+	.tab {
+		margin: 0px -70px;
+	}
+	.tabcontent {
+		margin: 15px -70px;
+	}
+	.rule_one h1 {
+		font-size: 21px;
+	}
+	.product-title.text-center h1 {
+		font-size: 30px;
+	}
+	.process_to_start_title.text-center h1 {
+		font-size: 26px;
+	}
+	.cta h1 {
+		font-size: 31px;
+		margin: 15px -72px;
+	}
+	.cta p {
+		margin: 20px -46px;
+		font-size: 18px;
+	}
+	.cta button {
+		padding: 10px 14px;
+	}	
+	.process_box img {
+		height: 120px;
+		width: 120px;
+		border-radius: 50%;
+		margin-bottom: 0px;
+	}
+	
+	.content-area-start-terms-of-service h1 {
+		font-size: 21px;
+		margin: 0px -37px;
+	}
+	.content-area-start-terms-of-service p {
+		font-size: 15px;
+		line-height: 20px;
+		margin: 15px -34px;
+	}
+	.baner_title {
+		padding: 115px 0px;
+	}
+	
+}
